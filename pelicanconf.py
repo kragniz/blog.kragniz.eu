@@ -17,11 +17,14 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-THEME='pelican-svbhack'
+THEME='pelican-svbhack-hack'
+
+DEFAULT_PAGINATION = None
+SUMMARY_MAX_LENGTH = None
 
 STATIC_PATHS = ['images']
 USER_LOGO_URL = "images/lpt_gliph.svg"
-TAGLINE='くりいゃん'
+TAGLINE='ミ๏ｖ๏彡'
 
 # Blogroll
 LINKS = (('Github', 'https://github.com/kragniz'),)

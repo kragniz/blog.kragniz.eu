@@ -1,10 +1,13 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300italic);
+
 body {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
   color: #4d4d4d;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 18px;
+  /*font-family: 'PT Sans', sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
 }
 a {
   color: #000000;
@@ -33,7 +36,7 @@ aside div#user_meta p {
 aside div#user_meta ul {
   margin: 40px 0 0 0;
   padding-left: 0;
-  font-size: 16px;
+  font-size: 15px;
   list-style-type: none;
 }
 aside div#user_meta ul li {
@@ -42,7 +45,7 @@ aside div#user_meta ul li {
 }
 aside div#user_meta ul li a {
   padding: 5px 15px 5px 15px;
-  border: 3px solid #eeeeee;
+  border: 1px solid #eeeeee;
   border-radius: 15px;
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
@@ -81,10 +84,10 @@ main article div.article_text pre {
   padding: 2px;
   padding-left: 2em;
   color: #000000;
-  //border-left: 2em solid #FEFEFE;
+  /*border-left: 2em solid #FEFEFE;*/
   font-size: 14px;
   font-family: 'PT Mono', monospace;
-  //background: #eeeeee;
+  /*background: #eeeeee;*/
   line-height: 1.125em;
   overflow-x: auto;
 }
@@ -131,7 +134,7 @@ main div#ending_message {
 }
 @media screen and (min-width: 1024px) {
   aside {
-    width: 25%;
+    width: 22%;
     height: 100%;
     position: fixed;
     top: 0;

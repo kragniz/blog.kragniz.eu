@@ -24,7 +24,7 @@ RELATIVE_URLS = True
 
 STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
-USER_LOGO_URL = SITEURL + "/images/me2_waifu2x_waifu2x.png"
+USER_LOGO_URL = SITEURL + "/images/me2_cropped.png"
 TAGLINE='ミ๏ｖ๏彡'
 
 # Blogroll

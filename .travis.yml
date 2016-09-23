@@ -1,0 +1,16 @@
+branches:
+  only:
+  - master
+language: python
+python:
+- 2.7
+install:
+- pip install pelican
+script:
+- make html
+before_install:
+- git submodule update --init --recursive
+after_success: bash deploy
+env:
+  global:
+    secure: P6lcuoiMf0Tjd+0s35nIalbI1DjCXXi3eUJQuP2jBlPsE7J2BR7oORT94fCva63ErynGNK9znfM3Ql8JrAjWy8reOHao8fuN1q7HHRWwZvPVEIQYf0EOfkGLJ9NeXm+AILeOk6NeOIQT14XFZFQ5AFkPgoV7KcQZivJKObPVKK8Cq86bbAdvoWlRM9EbcRtFKDA9jpRFeEohFq518gDcA1PLtfsb18uP4mAEQB/epM1NBKSSQgHPz+UIEqhLZjSNVEB24mPpWJN8Jp8ggnEWS+Au078DOGGOfGLENgAC34/YHIcgDEFXeEAq5Fwt8gXDAyVAP0D5VWjH6pPBuocoLs9CSRlrpkUU0CGXVvPtw1aHZkT2DGS4hbe/N5iYgH7uvYD0g/OAGDgwWY8+LwXRKCs3XU9aHr4PDXQ8xACN1OfvAPhFISJJUKZ7RuboBepMTkkslmMEN0AVrJSQqSm5SoViDByF1LMBwHyiRrcoC3bC7K5lYbk57DDtgsCe0Kd2YHiLvJzBdsQWNA6eMuHHbm8VJJerjwIl7jwU78B+7SshU7m0vRB1eNWfZpSXNq4NfFsPAjlZHj/qavbwGeA+MtSKdcyOkWWvI9xV0IGrEblV1i4oqkfx4Hxhlzjj4l16IA/IZOXjmxWWMqkEUZnPwCS370GqrczrSs13NzuXEwY=

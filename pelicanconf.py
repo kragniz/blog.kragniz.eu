@@ -16,7 +16,7 @@ ARTICLE_URL = "{slug}"
 ARTICLE_SAVE_AS = "{slug}/index.html"
 YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
 
-DEFAULT_PAGINATION = None
+DEFAULT_PAGINATION = 6
 SUMMARY_MAX_LENGTH = None
 
 SITEURL = 'http://blog.kragniz.eu'

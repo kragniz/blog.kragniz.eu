@@ -33,5 +33,5 @@ RELATIVE_URLS = True
 
 STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
-USER_LOGO_URL = SITEURL + "/images/me2_cropped.png"
+USER_LOGO_URL = "/images/me2.png"
 TAGLINE='ミ๏ｖ๏彡'

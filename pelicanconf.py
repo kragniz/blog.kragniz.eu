@@ -1,14 +1,24 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
+AUTHOR = 'Louis Taylor'
+SITENAME = 'blog.kragniz.eu'
+SITEURL = "https://blog.kragniz.eu"
 
-AUTHOR = u'Louis Taylor'
-SITENAME = u'blog.kragniz.eu'
-SITEURL = ''
+PATH = "content"
 
-PATH = 'content'
+TIMEZONE = 'Europe/London'
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = 'en'
+
+CATEGORY_FEED_ATOM = None
+
+# Blogroll
+LINKS = (
+    ('GitHub', 'https://github.com/kragniz'),
+)
+
+# Social widget
+SOCIAL = (
+    ('fedi', 'https://chaos.social/@kgz'),
+)
 
 THEME='pelican-svbhack-hack'
 
@@ -16,26 +26,12 @@ ARTICLE_URL = "{slug}"
 ARTICLE_SAVE_AS = "{slug}/index.html"
 YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
 
-DEFAULT_PAGINATION = 6
+DEFAULT_PAGINATION = 4
 SUMMARY_MAX_LENGTH = None
 
-SITEURL = 'http://blog.kragniz.eu'
 RELATIVE_URLS = True
 
 STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 USER_LOGO_URL = SITEURL + "/images/me2_cropped.png"
 TAGLINE='ミ๏ｖ๏彡'
-
-# Blogroll
-LINKS = (('Github', 'http://github.com/kragniz'),)
-
-# Social widget
-SOCIAL = (('Twitter', 'https://twitter.com/kragniz'),)
-
-GOOGLE_ANALYTICS = "UA-59782204-1"
-
-#DEFAULT_PAGINATION = 10
-
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True

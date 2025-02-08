@@ -6,11 +6,11 @@ Low altitude flying craft
 :tags: 3d, blender, images
 :slug: flying-thing
 
-.. image:: |filename|/images/rocket-thing-pic-10.jpg
+.. image:: {static}/images/rocket-thing-pic-10.jpg
 
-.. image:: |filename|/images/rocket-thing-pic-16.jpg
+.. image:: {static}/images/rocket-thing-pic-16.jpg
 
-.. image:: |filename|/images/rocket-thing-pic-19.jpg
+.. image:: {static}/images/rocket-thing-pic-19.jpg
 
 .. raw:: html
 

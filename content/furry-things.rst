@@ -8,10 +8,10 @@ Some fur
 
 Playing with fluffy things in blender.
 
-.. image:: |filename|/images/large-brute-beast-pic34.jpg
+.. image:: {static}/images/large-brute-beast-pic34.jpg
 
-.. image:: |filename|/images/large-brute-beast-pic35.jpg
+.. image:: {static}/images/large-brute-beast-pic35.jpg
 
-.. image:: |filename|/images/smallhairythingshot43.jpg
+.. image:: {static}/images/smallhairythingshot43.jpg
 
-.. image:: |filename|/images/smallhairythingshot53.jpg
+.. image:: {static}/images/smallhairythingshot53.jpg

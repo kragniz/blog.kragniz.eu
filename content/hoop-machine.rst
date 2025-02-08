@@ -6,6 +6,6 @@ Hoop machine
 :tags: 3d, blender, images
 :slug: hoop-machine
 
-Modeled in `Blender <http://www.blender.org/>`__ and rendered in `Kerkythea <www.kerkythea.net>`__.
+Modeled in `Blender <http://www.blender.org/>`__ and rendered in Kerkythea.
 
-.. image:: |filename|/images/hoopmachine6.jpg
+.. image:: {static}/images/hoopmachine6.jpg

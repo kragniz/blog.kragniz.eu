@@ -11,9 +11,9 @@ through university.
 
 Some sailing robots made with friends from my university:
 
-.. image:: |filename|/images/dewi.jpg
+.. image:: {static}/images/dewi.jpg
 
-.. image:: |filename|/images/kitty.jpg
+.. image:: {static}/images/kitty.jpg
 
 
 Old posts begin here:

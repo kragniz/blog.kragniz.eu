@@ -120,9 +120,15 @@ main article div.article_text code {
   margin: 2px;
   padding: 0;
   color: #000000;
-  font-size: 14px;
-  font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  font-family: 'IBM Plex Mono', ui-monospace, monospace;
   background: #eeeeee;
+  font-feature-settings:
+    'liga' 0,
+    'calt' 0,
+    'ss01' 0,
+    'ss07' 0,
+    'dlig' 0,
+    'tnum' 0;
 }
 
 main article div.article_text pre {
@@ -131,11 +137,18 @@ main article div.article_text pre {
   padding-left: 2em;
   color: #000000;
   /*border-left: 2em solid #FEFEFE;*/
-  font-size: 14px;
-  font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  /*font-size: 14px;*/
+  font-family: 'IBM Plex Mono', ui-monospace, monospace;
   /*background: #eeeeee;*/
   line-height: 1.125em;
   overflow-x: auto;
+  font-feature-settings:
+    'liga' 0,
+    'calt' 0,
+    'ss01' 0,
+    'ss07' 0,
+    'dlig' 0,
+    'tnum' 0;
 }
 
 main article div.article_text blockquote {

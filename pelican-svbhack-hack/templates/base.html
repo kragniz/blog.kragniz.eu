@@ -3,13 +3,15 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/fonts/inter.css">
+  <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/fonts/ibmplexmono.css">
   <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css">
   <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/pygments.css">
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="{{ AUTHOR }}">
-  <meta name="description" content="Posts and writings by {{ AUTHOR }}">
+  <meta name="description" content="Very infrequent posts by {{ AUTHOR }}">
+  <meta name="fediverse:creator" content="@kgz@chaos.social" />
 
   <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96" />
   <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
@@ -72,7 +74,7 @@
     {% endblock %}
 
     <div id="ending_message">
-      <p>&copy; {{ AUTHOR }}. <a href="{{ SITEURL }}">Index</a> &brvbar; <a href="{{ SITEURL }}/archives.html">Archives</a> &brvbar; <a href="http://getpelican.com" target="_blank">Pelican</a> &brvbar; <a href="https://github.com/gfidente/pelican-svbhack" target="_blank">Theme</a>.</p>
+      <p><a href="{{ SITEURL }}">Index</a> &brvbar; <a href="{{ SITEURL }}/archives.html">Archives</a></p>
     </div>
   </main>
   {% include "modules/idl.html" %}

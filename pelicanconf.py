@@ -1,10 +1,11 @@
 AUTHOR = 'Louis Taylor'
-SITENAME = 'blog.kragniz.eu'
-SITEURL = "https://blog.kragniz.eu"
+SITENAME = 'blog.kgz.sh'
+SITEURL = "https://blog.kgz.sh"
 
 PATH = "content"
 
 TIMEZONE = 'Europe/London'
+DEFAULT_DATE_FORMAT = '%d %B %Y'
 
 DEFAULT_LANG = 'en'
 
